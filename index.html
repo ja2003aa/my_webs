@@ -11,33 +11,191 @@
     <header>
         <a href="#" class="logo">Jana Algurashi</a>
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, It's <span>Jana</span></h1>
-            <h3 class="typing-text">I'm a <span id="typed-text"></span></h3>
-            <p>I'm passionate about AI  machine learning and technology, with strong skills in Python and Java.<br>
-                I've developed machine learning models and chatbots, and have experience in NLP and data analysis.<br>
-                Eager to apply my knowledge in a professional setting, I aim to contribute to innovative projects<br>
-                and grow as an AI developer.</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <div class="container">
+        <section id="home" class="page">
+            <div class="home-content">
+                <h1>Hi, It's <span>Jana</span></h1>
+                <h3 class="typing-text">I'm a <span id="typed-text"></span></h3>
+                <p>I'm passionate about AI and technology, with strong skills in Python and Java.<br>
+                   I've developed machine learning models and chatbots, and have experience in NLP and data analysis.<br>
+                   Eager to apply my knowledge in a professional setting, I aim to contribute to innovative projects<br>
+                   and grow as an AI developer.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="path/to/your/resume.pdf" class="btn" download>Download Resume</a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+        </section>
+
+        <section id="skills" class="page">
+            <div class="section-header skills-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-description">Here are the programming languages and tools I specialize in.</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-left">
+                    <h3 class="side-title">Programming Skills</h3>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 1;">
+                            <img src="react.png" alt="ReactJS">
+                            <span>ReactJS</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%">
+                             <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 2;">
+                            <img src="python.png" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 3;">
+                            <img src="java.png" alt="Java">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 4;">
+                            <img src="c++.png" alt="C++">
+                            <span>C++</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 5;">
+                            <img src="javascript.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 6;">
+                             <img src="css.png" alt="CSS">
+                             <span>CSS</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-detail" style="--animation-order: 7;">
+                            <img src="HTML.png" alt="HTML5">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="40%">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="skills-right">
+                    <h3 class="side-title">Specialized Skills</h3>
+                    <div class="skill-detail" style="--animation-order: 1;">
+                        <img src="machine.png" alt="Machine Learning & AI" class="specialized-skill-icon">
+                        <p><strong>Machine Learning & AI:</strong> Experienced in developing and deploying machine learning models using TensorFlow, PyTorch, and Scikit-Learn. Worked on projects involving reinforcement learning and model deployment on cloud platforms.</p>
+                    </div>
+                    <div class="skill-detail" style="--animation-order: 2;">
+                        <img src="nlp.png" alt="Natural Language Processing (NLP)" class="specialized-skill-icon">
+                        <p><strong>Natural Language Processing (NLP):</strong> Skilled in NLP techniques using NLTK, SpaCy, and transformer models like BERT and GPT. Developed chatbots and performed text classification and sentiment analysis.</p>
+                    </div>
+                    <div class="skill-detail" style="--animation-order: 3;">
+                        <img src="vision.png" alt="Computer Vision" class="specialized-skill-icon">
+                        <p><strong>Computer Vision:</strong> Proficient in image processing, object detection, and image segmentation using OpenCV and TensorFlow. Worked on projects involving facial recognition and object detection models like YOLO.</p>
+                    </div>
+                    <div class="skill-detail" style="--animation-order: 4;">
+                        <img src="ux.png" alt="UX/UI Design" class="specialized-skill-icon">
+                        <p><strong>UX/UI Design:</strong> Experienced in creating user-friendly interfaces using Adobe XD and Figma. Skilled in user research, prototyping, and interaction design.</p>
+                    </div>
+                    <div class="skill-detail" style="--animation-order: 5;">
+                        <img src="data.png" alt="Data Analysis" class="specialized-skill-icon">
+                        <p><strong>Data Analysis:</strong> Proficient in data manipulation and visualization using Python, SQL, and tools like Matplotlib and Tableau. Experienced in statistical analysis and data preprocessing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page">
+            <div class="section-header projects-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-description">Here are some of the projects I've worked on. Right-click and drag to swipe through the projects..</p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card" data-project="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1.</p>
+                </div>
+                <div class="project-card" data-project="Project 2">
+                    <h3>Project 2</h3>
+                    <p>A brief description of Project 2.</p>
+                </div>
+                <div class="project-card" data-project="Project 3">
+                    <h3>Project 3</h3>
+                    <p>A brief description of Project 3.</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+        <div id="overlay" class="overlay">
+            <div id="overlay" class="overlay">
+                <div class="overlay-content">
+                    <span class="close-btn" onclick="closeOverlay()">×</span>
+                    <h2 id="overlay-title"></h2>
+                    <p id="overlay-description"></p>
+                </div>
+            </div>
+    </div>
         </div>
-    </section>
+
+        <section id="experience" class="page">
+            <h2>Experience</h2>
+            <p>Details about experience...</p>
+        </section>
+
+        <section id="contact" class="page">
+            <h2>Contact</h2>
+            <p>Details about contact...</p>
+        </section>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
-
